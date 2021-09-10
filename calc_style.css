@@ -1,0 +1,108 @@
+html{
+    font-size: 4%;
+    text-align: center;
+    background: #100a1c;
+    background-image:
+            radial-gradient(60% 50% ellipse at center bottom, #2f3640, #100a1c 100%),
+            radial-gradient(50% 30% ellipse at center top, #130f40 0%, rgba(0,0,0,0) 100%)
+            ;
+    background-attachment: fixed;
+    color: #6cacc5;
+}
+
+.back {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 30px 30px 30px 30px;
+    grid-gap: 11%;
+}
+.form {
+    text-align: center;
+    margin-left: 12%;
+    margin-right:0%;
+}
+
+input {
+    width: 50%;
+    margin: 2px;
+    margin-left: 1px;
+    background-color: #f8f6fa;
+    color: #110000;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: large;
+}
+
+
+.btn {
+    color: #100a1c;
+    text-align: center;
+    padding-right: 130%;
+    padding-left: 112%;
+    display: grid;
+    grid-template-columns: 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px;
+    font-size: large;
+    background: #f9ca24;
+    font-weight: bolder;
+    box-shadow: rgba(0, 0, 0, 0.87) 0px 10px 20px, rgba(0, 0, 0, 0.85) 0px 6px 6px;
+    border-radius:13px ;
+    border-style: solid;
+    border-color: #070007;
+    margin: 0;
+}
+.inpuut{
+    margin-right: 30%;
+}
+.btn1 {
+    color: #100a1c;
+    text-align: center;
+    padding-right: 130%;
+    padding-left: 112%;
+    display: grid;
+    grid-template-columns: 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px;
+    font-size: large;
+    background: #f6e58d;
+    font-weight: bolder;
+    box-shadow: rgba(0, 0, 0, 0.87) 0px 10px 20px, rgba(0, 0, 0, 0.85) 0px 6px 6px;
+    border-radius:13px ;
+    border-style: solid;
+    border-color: #070007;
+    margin: 0;
+}
+
+#btn11{
+    background: #f0932b;
+}
+#btn11:hover{
+    box-shadow: rgba(42, 27, 27, 0.96) 0px 10px 20px, rgba(19, 1, 1, 0.23) 0px 6px 6px;
+    background:linear-gradient(#82058b, #efb894) ;
+}
+.btn:hover{
+    box-shadow: rgba(42, 27, 27, 0.96) 0px 10px 20px, rgba(19, 1, 1, 0.23) 0px 6px 6px;
+    background:linear-gradient(#5e8b05, #94ef94) ;
+}
+.btn1:hover{
+    box-shadow: rgba(42, 27, 27, 0.96) 0px 10px 20px, rgba(19, 1, 1, 0.23) 0px 6px 6px;
+    background:linear-gradient(#82058b, #efb894) ;
+}
+@media screen and (min-width:700px){
+    .form {
+        text-align: center;
+        align-items: center;
+        margin-left: 33%;
+    }
+    .inpuut{
+        text-align: center;
+        width: 40%;
+        margin-left: 3%;
+        margin-right: 48%;
+    }
+.back{
+    margin-left: 3%;
+    grid-gap: 10%;
+}
+}

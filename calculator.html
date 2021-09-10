@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="calc_style.css">
+    <meta charset="UTF-8">
+    <title>calculator</title>
+</head>
+
+<body>
+
+<br><br><br><br><br><br><br><br><br>
+
+<form name="calculator" class="form">
+
+    <input type="text" name="input" class="inpuut">
+
+     <br> <br><br><br><br><br><br><br>
+
+    <div class="back">
+        <input type="button" value="1" class="btn" onclick="calculator.input.value+='1'">
+        <input type="button" value="2" class="btn" onclick="calculator.input.value+='2'">
+        <input type="button" value="3" class="btn" onclick="calculator.input.value+='3'">
+        <input type="button" value="+" class="btn1" onclick="calculator.input.value+='+'">
+        <input type="button" value="4" class="btn" onclick="calculator.input.value+='4'">
+        <input type="button" value="5" class="btn" onclick="calculator.input.value+='5'">
+        <input type="button" value="6" class="btn" onclick="calculator.input.value+='6'">
+        <input type="button" value="-" class="btn1" onclick="calculator.input.value+='-'">
+        <input type="button" value="7" class="btn" onclick="calculator.input.value+='7'">
+        <input type="button" value="8" class="btn" onclick="calculator.input.value+='8'">
+        <input type="button" value="9" class="btn" onclick="calculator.input.value+='9'">
+        <input type="button" value="*" class="btn1" onclick="calculator.input.value+='*'">
+        <input type="button" value="c" class="btn1" onclick="calculator.input.value=''">
+        <input type="button" value="0" class="btn" onclick="calculator.input.value+='0'">
+        <input type="button" value="/" class="btn1" onclick="calculator.input.value+='/'">
+        <input type="button" value="= " class="btn1" id="btn11" onclick="calculator.input.value=eval(calculator.input.value)">
+
+    </div>
+
+</form>
+
+</body>
+</html>
